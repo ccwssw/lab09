@@ -4,5 +4,6 @@ before_install:
 - sudo apt-get install ant-optional
 jdk:
 - openjdk10
+
 script:
 - ant test
